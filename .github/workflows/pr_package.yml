@@ -8,7 +8,7 @@ on:
       - reopened
       - synchronize
     branches:
-      - develop
+      - master
 
 jobs:
   create-package:
