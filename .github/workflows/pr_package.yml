@@ -27,7 +27,7 @@ jobs:
 
       - name: Install plugin dependencies
         run: |
-          pip install -r requirements_dev.txt
+          pip install -r requirements-dev.txt
 
       - name: Get unique identifier
         id: get-identifier
