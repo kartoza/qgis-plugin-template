@@ -19,8 +19,8 @@ To use the plugin for development purposes, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/{github-user}/{plugin-repo-name}.git
-   cd {plugin-repo-name}
+   git clone https://github.com/kartoza/qgis-plugin-template.git
+   cd qgis-plugin-template
    
 2. Install virtualenv (if you don't have it already) to create a project-specific Python environment:
    ```bash 
@@ -77,9 +77,12 @@ To create a release:
 
 1. Create a Git Tag:
     - Tag your commit with a version number (e.g., v1.0.0).
+   ```bash
+      git tag -a v1.0.0 -m tag_message
+     ```
 2. Push the tag into the repository.
     ```bash 
-    git push remote_name tag
+    git push remote_name v1.0.0
    ```
 Make sure the repository contains a branch named `release` based from the main branch, this will be used to keep track of the 
 custom staging repository plugin versions.
