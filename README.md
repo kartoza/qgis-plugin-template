@@ -3,7 +3,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/kartoza/qgis-plugin-template/ci.yml?branch=master)
 ![GitHub](https://img.shields.io/github/license/kartoza/qgis-plugin-template)
 
-This repository serves as a **QGIS plugin template** for building QGIS plugins. It provides the necessary structure and tools to kick-start plugin development, including components for configuration, development, testing, and packaging.
+This repository serves as a **template** for building QGIS plugins. It provides the necessary structure and tools to kick-start plugin development, including components for configuration, development, testing, and packaging.
 
 ### Repository Components
 
